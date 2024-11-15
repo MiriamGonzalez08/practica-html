@@ -1,0 +1,130 @@
+.contact-information{
+  padding: 10px;
+  padding-top: 0;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #de423a;
+}
+
+.contact-information [class*="icon-"] {
+  font-size: 1.1em;
+  margin-right: 7px;
+  position: relative;
+  top: 5px;
+}
+
+.contact-information .social-icon{
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.contact-information .social-icon [class*="icon-"]{
+  background: black;
+  color: white;
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.formulario{
+  padding: 10px;
+  padding-top: 0;
+}
+
+.formulario_label, .formulario__input-txt, .formulario__textarea{
+  display: block;
+  width: 100%;
+}
+
+.formulario__textarea{
+margin: auto;
+border-color: #000;
+border-style: solid;
+border-width: 1px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.formulario__btn{
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  border-radius: 10px;
+  position: center;
+  color: #fff;
+}
+
+@media screen and (min-width:480px) {
+
+  .contact-information p{
+    font-size: .75em;
+
+  }
+  .contact-information{
+    border-right: 2.2px solid #34495E ;
+    border-bottom: none;
+  }
+
+}
+
+@media screen and (min-width:768px){
+  .contact-information p{
+    font-size: 1em;
+
+  }
+  .contact-information .column__title{
+    font-size: 1.5em;
+  }
+}
+
+.column--50 .main_titulo{
+  font-size: 2.1em;
+  text-align: center;
+}
+
+.column--50 .main_texto{
+  font-size: 1em;
+  text-align: justify;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.column--50 .column__txt{
+  font-size: 1em;
+  text-align: center;
+}
+
+.social-icon{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icon [class*="icon-"]{
+  color: black;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  width: 35px;
+  height: 35px;
+  background: white;
+  border-radius: 50%;
+}
+
+.social-icon__link{
+  text-decoration: none;
+}
+
+.column--50 .formulario__input-txt{
+  color: #000000;
+  border-radius: 10px;
+  padding: .4em;
+  opacity: none;
+  width: 100%;
+  height: 35px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+

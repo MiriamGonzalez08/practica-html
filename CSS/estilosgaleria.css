@@ -1,0 +1,48 @@
+.galeria__img{
+	object-fit: cover; /*No distorcionar la imagen*/
+	margin-bottom: 20px; /*Separación*/
+	cursor: pointer;/*Poner la mania*/
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.galeria__img:hover{
+	transform: scale(1.02);
+}
+
+.galeria__img--grande{
+	height: 400px;
+}
+
+.galeria__img--chica{
+	height: 200px;
+}
+
+/*Imagen seleccionada se pone en grande*/
+
+.modal{
+	width: 100%;
+	min-height: 100vh;
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	display: none; 
+}
+
+.modal__contenido{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.modal_img{
+	width: 50%;
+}
+
+
+.modal--open{
+	display: block;
+}
